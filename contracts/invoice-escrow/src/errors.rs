@@ -116,4 +116,6 @@ pub enum Error {
     CapacityReached = 48,
     /// Counterparties must be distinct addresses.
     SelfDealing = 49,
+    /// Caller is not the invoice creator.
+    NotCreator = 20,
 }
